@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Unkempt&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Wielka Pustka</title>
 </head>
 <body>
     <nav class="nav container">
@@ -20,19 +20,35 @@
                 <button class="nav-bar__button nav-bar__button--burger">
                     <i class="fas fa-bars"></i>
                 </button>
-                <button class="nav-bar__button nav-bar__button--link">
+                <a class="nav-bar__button nav-bar__button--link" href="">
                     Artykuły
-                </button>
-                <button class="nav-bar__button nav-bar__button--link">
+                </a>
+                <a class="nav-bar__button nav-bar__button--link" href="">
                     Kontakt
-                </button>
+                </a>
             </div>
         </section>
     </nav>
     <main>
-        <section class="background">
+        <div class="margin-navbar-away"></div>
+        <!-- <header class="background">
             <img class="background__image" src="./img/forest-mobile.jpg" srcset="./img/forest-mobile.jpg 575w, ./img/forest-desktop.jpg 1980w" alt="Deep forest, the Fortress.">
-        </section>
+        </header> -->
+        <article class="article container margin-navbar-away">
+            <section class="article__item introduction container__item">
+                <div class="introduction__item article--padding">
+                    <h1 class="introduction__header article__margin-bottom--long">
+                        Strona główna
+                    </h1>
+                    <span class="introduction__line">
+                        Witamy w Wielkiej Pustce! Proszę poczęstuj się tym sernikiem i rozgość się w tych skromnych progach.
+                    </span>
+                </div>
+                <div class="introduction__image-container introduction__item article--padding">
+                    <img class="introduction__image" src="./img/cheesecake-mobile.jpg" srcset="./img/cheesecake-mobile.jpg 640w, ./img/cheesecake-desktop.jpg 768w" alt="Cheese that begs to be eaten">
+                </div>
+            </section>
+        </article>
     </main>
 </body>
 </html>
